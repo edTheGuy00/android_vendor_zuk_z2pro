@@ -874,3 +874,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings
 endif
+
+$(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
