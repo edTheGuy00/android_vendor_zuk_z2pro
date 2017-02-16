@@ -1,0 +1,27 @@
+
+Android boot Image Info:
+
+* file name	= boot
+
+* type header	= Android
+
+* image size	= 67 108 864 bytes (64,00 Mb)
+  page size	= 4 096 bytes
+
+* image name	= 
+
+* kernel size	= 39 389 384 bytes (37,56 Mb)
+  ramdisk size	= 3 709 797 bytes (3,54 Mb)
+  second size	= 0 bytes (0,00 Mb)
+  dtree size	= 0 bytes (0,00 Mb)
+
+* load addresses:
+  kernel	= 0x80008000
+  ramdisk	= 0x81000000
+  second	= 0x80F00000
+  tags		= 0x80000100
+
+* cmdline	= console=tty60,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff
+
+* id		= 0xAF804D9F 0x58AD85ED 0x02409407 0x878087EB 0x2B4715B0 0x00000000 0x00000000 0x00000000
+
