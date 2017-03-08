@@ -11,5 +11,3 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprieta
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprietary/vendor,system/vendor)
 
 -include vendor/extra/devices.mk
-
-$(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
